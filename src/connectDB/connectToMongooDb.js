@@ -21,7 +21,6 @@ const connectToMongoDb = async () => {
 
   try {
     const conn = await mongoose.connect("mongodb+srv://sanjay:sanjay@codersanjay.jknb2.mongodb.net/dw18project");
-
     isConnected = true;
     console.log("MongoDB Connected");
   } catch (error) {
